@@ -1,6 +1,6 @@
 from ggrocket import Rocket, Planet
 
 earth = Planet(viewscale=0.00005)
-rocket = Rocket(earth, altitude=400000, velocity=1000, timezoom=1)
+rocket = Rocket(earth, altitude=400000, velocity=5000, timezoom=1.5)
 earth.run(rocket)
 
